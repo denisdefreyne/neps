@@ -1,5 +1,7 @@
-**Status: Pending**
+While the standard Ruby implementation (MRI) does not provide true parallelism, there are a few Ruby implementations that can make use of multiple threads. This includes JRuby and soon Rubinius, and hopefully more later on.
 
-The compilation process should be fairly easy parallellizable. Even though there are dependencies between items, layouts, … the compiler can currently handle this rather well. Parallellizing nanoc would make the compilation process faster, and would likely lead to a cleaner API. (For example, no more compilation stack.)
+nanoc should take advantage of multiple cores and/or multiple CPUs, since this would provide a significant speedup when compiling sites. Compilation of a nanoc site is almost “embarrassingly parallel”: there are dependencies between items, but nanoc can figure out these dependencies at run time (and should eventually be able to make a very good up-front estimate of the dependency graph).
 
-This will likely not be implemented because it is very low-priority; after all, the major Ruby implementations have  a global interpreter lock (GIL) that prevent true parallellism.
+nanoc’s current architecture is not quite ready for parallelization. There are several disguised global variables which need to be removed (perhaps replaced by thread-local storage). For example, there exists a single compilation stack which is used for determining dependencies.
+
+All in all, parallelizing nanoc is a low-priority goal because of the state of parallelism in the current major Ruby implementations.

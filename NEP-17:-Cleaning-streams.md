@@ -5,7 +5,7 @@ Situation before nanoc 3.4
 
 Non-ASCII characters were removed by calling `#make_compatible_with_env` on the string, which checked the environment variables and decided to remove non-ASCII characters.
 
-**Problems:** This approach is not scalable, the cleaning happens all over the place (not centralized) and you tend to forget to use the methed.
+**Problems:** This approach is not scalable, the cleaning happens all over the place (not centralized) and you tend to forget to use the method.
 
 Situation in nanoc 3.4
 ----------------------

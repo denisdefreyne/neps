@@ -4,4 +4,4 @@ On a large site, the output from `nanoc compile` is very noisy, and hard to grok
 * Making the default output less verbose. A good model for this could be unit test style: `..UCC...UI...`.
 * At the end of each row, outputting a `15/1500 (1%)` summary.
 * Adding multiple levels of verbosity; possibly `--verbose` doing the line-by-line as it compiles version that `nanoc compile` currently uses and add a `--debug` for even more verbose debugging info.
-* Having at least a flag in config to have `nanoc compile` log :identical with level :low instead of :high, as with sites with a lot of files, there usually is no point in seeing what hasn't changed.
+* <del>Having at least a flag in config to have `nanoc compile` log :identical with level :low instead of :high, as with sites with a lot of files, there usually is no point in seeing what hasn't changed.</del> (implemented by ddfreyne in https://github.com/ddfreyne/nanoc/commit/38420793583f242a5242661501852062fe2990f0 (branch release-3.4.x))

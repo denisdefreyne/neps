@@ -9,6 +9,7 @@ Some ideas:
 * At the end of each row, outputting a `15/1500 (1%)` summary.
 * Adding multiple levels of verbosity; possibly `--verbose` doing the line-by-line as it compiles version that `nanoc compile` currently uses and add a `--debug` for even more verbose debugging info.
 * <del>Having at least a flag in config to have `nanoc compile` log :identical with level :low instead of :high, as with sites with a lot of files, there usually is no point in seeing what hasn't changed.</del> (implemented by ddfreyne in https://github.com/ddfreyne/nanoc/commit/38420793583f242a5242661501852062fe2990f0 (branch release-3.4.x))
+* When a page takes 10s or longer to compile, the alignment of the output is incorrect. Should nanoc cater for this? 10s or more is a very long time to compile a page, so perhaps the current situation should be left as-is.
 
 ## Points of action
 

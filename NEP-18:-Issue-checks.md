@@ -19,6 +19,20 @@ Other checks that should be possible:
 * ensure that all JavaScript, CSS and HTML files are minified (not sure how to check that though)
 * ensure that versioned items have their version number updated (again, not sure how to check this)
 
+Quick checks
+------------
+
+It should be possible to define ad-hoc checks in a “checks” file of sort. It would look like this:
+
+```ruby
+check "feed should not be empty" do
+  feed = @items.find { |i| i.identifier == '/blog/feed/' }
+  # HTML parsing simplified for demonstration purposes
+  dom = html_parse(feed)
+  assert !dom.xpath('//article').empty?
+end
+```
+
 Usage
 -----
 

@@ -90,3 +90,24 @@ Running check: encodings... ok
 Check completed with 4 issues found.
 %
 ```
+
+Alternative proposal: a “checks” file
+-------------------------------------
+
+Instead of giving the identifiers of the checkers as arguments to the `check` command, the checkers could be defined in a checks file (which would also then allow quick checks). For instance:
+
+```ruby
+check :html
+check :css
+check :internal_links
+check :external_links
+
+check "feed should not be empty" do
+  feed = @items.find { |i| i.identifier == '/blog/feed/' }
+  # HTML parsing simplified for demonstration purposes
+  dom = html_parse(feed)
+  assert !dom.xpath('//article').empty?
+end
+```
+
+**To do:** Figure out a way to define check sets to be run for deployment.

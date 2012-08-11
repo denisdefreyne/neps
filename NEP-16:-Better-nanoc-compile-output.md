@@ -33,7 +33,7 @@ The characters mean the following:
 * `S` = skipped
 * `D` = deleted (using the auto-pruner)
 
-3. **Verbose** - One line per processed item representation.
+**Verbose** - One line per processed item representation.
 
 Some questions:
 

@@ -11,6 +11,34 @@ Some ideas:
 * <del>Having at least a flag in config to have `nanoc compile` log :identical with level :low instead of :high, as with sites with a lot of files, there usually is no point in seeing what hasn't changed.</del> (implemented by ddfreyne in https://github.com/ddfreyne/nanoc/commit/38420793583f242a5242661501852062fe2990f0 (branch release-3.4.x))
 * When a page takes 10s or longer to compile, the alignment of the output is incorrect. Should nanoc cater for this? 10s or more is a very long time to compile a page, so perhaps the current situation should be left as-is.
 
+## Levels of verbosity
+
+I propose three levels:
+
+**Quiet**: no output at al.
+
+**Default**:
+
+    % nanoc
+    Loading site data...
+    ....U.....UUUU..C....DDDDDDDSSSSSSSSSSSSSSSSSSSSSS
+    Site compiled in 12.34s
+    % 
+
+The characters mean the following:
+
+* `.` = identical
+* `U` = updated
+* `C` = created
+* `S` = skipped
+* `D` = deleted (using the auto-pruner)
+
+3. **Verbose** - One line per processed item representation.
+
+Some questions:
+
+* What do to with the statistics? Should they be present in the verbose level?
+
 ## Points of action
 
 1. Do not include compiled items that have identical output (“identical” lines in the `nanoc compile` output). Including them serves no purpose. (**implemented**)

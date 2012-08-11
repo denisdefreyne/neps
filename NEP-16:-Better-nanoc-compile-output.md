@@ -22,7 +22,7 @@ I propose three levels:
     % nanoc
     Loading site data...
     ....U.....UUUU..C....DDDDDDDSSSSSSSSSSSSSSSSSSSSSS
-    Site compiled in 12.34s
+    Site compiled in 12.34s (1 created, 5 updated)
     % 
 
 The characters mean the following:

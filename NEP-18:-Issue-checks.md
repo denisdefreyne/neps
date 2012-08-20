@@ -111,3 +111,8 @@ end
 ```
 
 **To do:** Figure out a way to define check sets to be run for deployment.
+
+Elsewhere
+---------
+
+Neat way of specifying checks (in JS): https://github.com/fat/haunt/blob/master/examples/basic.js

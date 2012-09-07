@@ -1,3 +1,5 @@
+Status: started
+
 A `nanoc check` command could be used to performs issue checks on your site. An issue check is comparable to a unit test for your site.
 
 Checks to include

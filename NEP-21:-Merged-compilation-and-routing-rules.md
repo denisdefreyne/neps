@@ -1,3 +1,5 @@
+Status: accepted
+
 +1.
 
 I've only just started using nanoc, but a change like this seems much more

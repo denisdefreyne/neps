@@ -1,3 +1,5 @@
+Status: accepted
+
 It would be useful to be able to open an interactive Ruby shell with the site’s nanoc environment preloaded. This means that:
 
 **Definitely:**

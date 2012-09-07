@@ -1,4 +1,4 @@
-**Status:** Implemented
+Status: released
 
 At this point, nanoc throws recursive compilation errors even in cases where it is not strictly necessary. Requesting the #compiled_content of the item that is currently being processed is impossible even though there are valid cases where this would be possible and useful.
 

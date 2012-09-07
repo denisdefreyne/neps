@@ -1,3 +1,5 @@
+Status: released
+
 I’m not entirely happy with the overall architecture of nanoc. Class responsibilities are not clearly separated, and there is a lack of distinction between classes that represent source data (items, configuration, layouts, snippets) and classes that are used for compiling the site.
 
 An example of this is the way that item representation outdatedness is checked. Item representations need to access the site object to determine whether the configuration, rules and code snippets are outdated. The method chain itself is already a good indication that something is wrong here: `@item.site.code_snippets.any? { |cs| cs.outdated? `}.

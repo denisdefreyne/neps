@@ -1,3 +1,5 @@
+Status: released
+
 nanoc’s error reporting is not ideal for a few reasons.
 
 * The terminal output is too big, so users lose overview of what has happened and what went wrong.

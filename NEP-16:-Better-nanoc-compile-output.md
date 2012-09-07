@@ -1,3 +1,5 @@
+Status: accepted
+
 On a large site, the output from `nanoc compile` is very noisy, and hard to grok at a glance.
 
 ## Brainstorming

@@ -1,3 +1,5 @@
+Status: new
+
 This page describes the current problems with nanoc as a monolithic piece of software and the versioning and distribution of plugins.
 
 Glossary

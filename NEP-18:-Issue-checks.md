@@ -55,17 +55,6 @@ Subject to check
 * compiled files in output/
 * ... what else?
 
-Result statuses
----------------
-
-* **OK** - the check was performed and the result is certainly okay
-* **Error** - the check was performed and the result is certainly not okay
-* **Warning** - the check was performed but the result is inconclusive
-  * e.g. redirect limit exceeded
-  * e.g. timeout
-* **Skipped** - the check could not be performed
-  * e.g. links checker does not know how to follow certain URLs, such as `mailto:` or `irc://`
-
 Progress reporting
 ------------------
 

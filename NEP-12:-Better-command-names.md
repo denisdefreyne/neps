@@ -1,5 +1,5 @@
 --- 
-Status: released
+status: released
 --- 
 
 * `show-rules` is the new name for the new `explain` command

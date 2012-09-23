@@ -1,5 +1,5 @@
 --- 
-Status: new
+status: new
 --- 
 
 TODO describe me

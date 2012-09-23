@@ -1,5 +1,5 @@
 --- 
-Status: accepted
+status: accepted
 --- 
 
 Currently, when a compilation process is interrupted, it has to be restarted from scratch. Partial recompilation will save time.

@@ -1,5 +1,5 @@
 --- 
-Status: released
+status: released
 --- 
 
 The compiler currently uses a queue that contains all uncompiled items. When an item cannot be compiled due to an unmet dependency, items get pushed to the end of the queue to ensure that they will only be recompiled after all other pages are compiled.

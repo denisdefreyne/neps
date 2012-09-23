@@ -1,5 +1,5 @@
 --- 
-Status: accepted
+status: accepted
 is_quick_win: true
 --- 
 

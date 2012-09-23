@@ -1,5 +1,5 @@
 --- 
-Status: accepted
+status: accepted
 --- 
 
 TODO describe me

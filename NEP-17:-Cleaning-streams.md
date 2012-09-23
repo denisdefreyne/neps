@@ -1,5 +1,5 @@
 --- 
-Status: released
+status: released
 --- 
 
 Goal: allow non-ASCII characters and ANSI color codes to be written when the destination supports it. For example, an UTF-8 terminal will both have colors and special characters, while a file as output will have ANSI color codes stripped.

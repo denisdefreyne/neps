@@ -1,5 +1,5 @@
 --- 
-Status: accepted
+status: accepted
 --- 
 
 While the standard Ruby implementation (MRI) does not provide true parallelism, there are a few Ruby implementations that can make use of multiple threads. This includes JRuby and soon Rubinius, and hopefully more later on.

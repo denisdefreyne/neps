@@ -1,5 +1,5 @@
 --- 
-Status: released
+status: released
 --- 
 
 Currently (in nanoc 3.1), nanoc uses the file modification time (mtime) to check whethe

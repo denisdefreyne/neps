@@ -1,5 +1,5 @@
 --- 
-Status: released
+status: released
 --- 
 
 I’m not entirely happy with the overall architecture of nanoc. Class responsibilities are not clearly separated, and there is a lack of distinction between classes that represent source data (items, configuration, layouts, snippets) and classes that are used for compiling the site.

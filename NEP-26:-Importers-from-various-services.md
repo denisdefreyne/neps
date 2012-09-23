@@ -1,5 +1,5 @@
 --- 
-Status: new
+status: new
 is_quick_win: true
 --- 
 

@@ -1,5 +1,5 @@
 --- 
-Status: accepted
+status: accepted
 --- 
 
 nanoc needs a fast way of finding items by identifier.

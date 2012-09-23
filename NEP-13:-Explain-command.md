@@ -1,4 +1,6 @@
+--- 
 Status: released
+--- 
 
 An “explain” command that explains what items exist, how they are filtered, laid out and where they are written to would be useful to debug problems. Sample output (from @justinclift):
 

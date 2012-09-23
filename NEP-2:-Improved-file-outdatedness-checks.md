@@ -1,4 +1,6 @@
+--- 
 Status: released
+--- 
 
 Currently (in nanoc 3.1), nanoc uses the file modification time (mtime) to check whethe
 an item’s source content was updated since it was last compiled. This simple solution certainly is not the best, because it will cause pages to be needlessly recompiled if the source file was touched but not changed.

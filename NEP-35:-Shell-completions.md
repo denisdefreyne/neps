@@ -1,4 +1,7 @@
+--- 
 Status: accepted
+is_quick_win: true
+--- 
 
 It would be great to have completions for zsh and bash. If such completions are written, they should query nanoc for the available commands, options and arguments. This should be fairly easy. Here’s an example of how commands can be queried:
 

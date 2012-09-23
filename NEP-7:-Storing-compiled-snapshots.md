@@ -1,4 +1,6 @@
+--- 
 Status: released
+--- 
 
 It is currently not possible to write items at different stages of their compilation process. It may be useful to allow storing snapshots as well, so that different versions of an item rep can be saved. The DSL for this could look like this:
 

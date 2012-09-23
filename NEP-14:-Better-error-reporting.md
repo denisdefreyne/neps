@@ -1,4 +1,6 @@
+--- 
 Status: released
+--- 
 
 nanoc’s error reporting is not ideal for a few reasons.
 

@@ -1,5 +1,5 @@
 --- 
-status: new
+status: accepted
 is_quick_win: true
 --- 
 

@@ -1,5 +1,5 @@
 --- 
-status: started
+status: implemented
 --- 
 
 It should be possible to define issue checks (comparable to unit tests) to make sure that a site is okay in order to be deployed. This will be achieved in two ways. First, there will be a `nanoc check` command that executes checks. Secondly, the `nanoc deploy` command will be enhanced so that it optionally performs checks before deploying the site.

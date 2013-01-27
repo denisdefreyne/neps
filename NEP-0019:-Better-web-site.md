@@ -1,5 +1,5 @@
 --- 
-status: started
+status: released
 --- 
 
 The current web site is lacking in many aspects. A redesign should tackle the following issues:

@@ -1,6 +1,6 @@
 nanoc Enhancement Proposals
 ===========================
 
-The nanoc enhancement proposals (NEPs) are meant to structure ideas for features, enhancements and changes in a more formal way. This repository contains all NEPs. The name "nanoc enhancement proposal" comes from Python's "Python Enhancement Proposal" (PEP).
+**DEPRECATED:** The NEPs are no longer used. Instead, the nanoc GitHub issue tracker is used, along with the [Trello board for nanoc 4.0](https://trello.com/board/nanoc-4-0/51671a676672ded155000027).
 
-The NEP process is still very new and very much in flux.
+The nanoc enhancement proposals (NEPs) were meant to structure ideas for features, enhancements and changes in a more formal way.
